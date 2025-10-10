@@ -43,8 +43,6 @@ def generate_launch_description():
             remappings=[('/cmd_vel_out','/diff_cont/cmd_vel_unstamped')]
         )
 
-    
-
 
     robot_description = Command(['ros2 param get --hide-type /robot_state_publisher robot_description'])
 
